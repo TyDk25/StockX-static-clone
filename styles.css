@@ -1,0 +1,303 @@
+
+/* GENERAL STYLES*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Merriweather", sans-serif;
+
+
+
+}
+
+html {
+
+    font-size: 10px;
+}
+
+
+
+.main-section {
+    max-width: 130rem;
+    margin: auto;
+    caret-color: transparent;
+
+}
+
+
+/*********************************************/
+
+/*NAVIGATION*/
+
+
+.logo {
+    height: 7rem;
+    width: auto;
+    cursor: pointer;
+    margin-left: -9.0rem;
+
+
+}
+
+
+
+
+.searchbar {
+    border: 0.1rem solid black;
+    width: 60%;
+    height: 4.0rem;
+    justify-self: center;
+    box-shadow: 3rem 1rem 2rem rgba(0, 0, 0, 0.10);
+    border-radius: 0.5rem;
+    font-size: 0.1rem;
+    margin-left: -8.0rem;
+ 
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1.0rem;
+}
+
+
+.sub-1 {
+    display: none;
+  
+
+}
+
+.sub-1 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-right: 4rem;
+    padding-left: 1rem;
+    margin-left: -9.5rem;
+    height: 27.5rem;
+    font-size: 1.6rem;
+    background-color: white;
+    list-style: none;
+   
+
+
+}
+
+.sneakers{
+    margin-top: 2rem;
+}
+
+.sub-1 a:link, 
+.sub-1 a:visited   {
+color: black;
+text-decoration: none;
+
+}
+
+ li:hover .sub-1{
+    display: block;
+    position: absolute;
+margin-left: -2rem;
+box-shadow: 1px 1px 10px grey;
+
+  
+
+}   
+
+
+
+
+
+
+.search-txt {
+    border: none;
+    outline: none;
+
+    padding-top: 1.0rem;
+    padding-left: 1.0rem;
+    font-size: 1.5rem;
+    color: black;
+
+}
+
+.search-nav {
+    display: flex;
+    font-size: 1.6rem;
+    list-style: none;
+    gap: 2.0rem;
+    margin-left: -7.0rem;
+    margin-top: -0.5rem;
+    caret-color: transparent;
+
+   
+
+}
+
+
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.main-nav-link.sell {
+    border: 0.1rem solid;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+.icon {
+    padding-top: 1.0rem;
+    padding-left: 1.0rem;
+    font-size: 1.5rem;
+
+}    
+
+.question {
+    font-size: 2.5rem;
+    margin-top: -1.3rem;
+    margin-left: -0.6rem;
+}    
+
+
+
+
+
+
+/*Items*/
+
+.item-container {
+
+    width: 100%;
+    padding: 1.3rem;
+    background-color: rgba(245, 244, 244, 0.973);
+    margin-top: 1.0rem;
+
+
+    font-size: 0.1rem;
+
+
+}
+
+.items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 1.7rem;
+    caret-color: transparent;
+}
+
+.search-txt {
+    width: 110rem;
+}
+
+
+.items a:link,
+.items a:visited {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.coachella-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.0rem;
+
+}
+
+.coachella {
+    height: 40rem;
+    width: 120rem;
+}
+
+
+.rm-box {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 2.0rem;
+}
+
+.rm {
+    font-size: 2.0rem;
+}
+
+.shoe-cards {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.shoe-img {
+    width: 17rem;
+    margin-left: 0.5rem;
+}
+
+
+
+.shoe-link {
+    cursor: pointer;
+}
+
+
+.card {
+    width: 20.0rem;
+    height: 27.0rem;
+    border: 1px solid #dee2e6;
+    margin-top: 1.5rem;
+}
+
+
+.shoe-name {
+    font-size: 1.8rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.lowest-ask {
+    font-size: 1.3rem;
+    margin-bottom: 1.0rem;
+    margin-left: 0.5rem;
+    color: gray;
+
+}
+
+.price {
+    font-size: 2.5rem;
+    margin-left: 0.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.last-sale {
+    border: 0.2rem;
+    background-color: #e9ecef;
+    padding: 0.2rem;
+    margin-left: 0.5rem;
+    width: 40%;
+}
+
+.shoe-cards a:link,
+.shoe-cards a:visited {
+    text-decoration: none;
+    color: black;
+
+}
