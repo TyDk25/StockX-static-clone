@@ -79,22 +79,38 @@ header {
 .sub-1 ul {
     display: flex;
     flex-direction: column;
+   
     gap: 2rem;
-    padding-right: 4rem;
-    padding-left: 1rem;
-    margin-left: -9.5rem;
-    height: 27.5rem;
+      /* padding-right: 4rem;
+     padding-left: 1rem;   */
+     margin-left: -9.5rem;
+    height: 32rem; 
     font-size: 1.6rem;
     background-color: white;
     list-style: none;
-   
+}
+
+
+
+.sub-1 ul li:first-child {
+margin-top: 2rem;
+}
+
+
+
+.sub-1 .browse-list:hover{
+
+background: #dadada;
+padding: 15px 0 15px 0;
 
 
 }
 
-.sneakers{
-    margin-top: 2rem;
+.browse-list a {
+    padding: 20px;
+
 }
+
 
 .sub-1 a:link, 
 .sub-1 a:visited   {
@@ -103,17 +119,19 @@ text-decoration: none;
 
 }
 
+
+
+
  li:hover .sub-1{
     display: block;
     position: absolute;
 margin-left: -2rem;
 box-shadow: 1px 1px 10px grey;
 
+
   
 
-}   
-
-
+}  
 
 
 
